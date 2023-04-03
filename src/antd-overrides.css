@@ -1,0 +1,40 @@
+.ant-popover {
+  max-width: max(calc(70vw - max(30vw, 400px)), 400px);
+}
+
+.ant-popover .ant-popover-inner {
+  border-radius: 10px;
+  box-shadow: 0px 5px 35px 6px rgba(34, 60, 80, 0.2);
+}
+
+body .ant-tooltip-placement-right .ant-tooltip-inner,
+body .ant-tooltip-placement-right .ant-tooltip-arrow {
+  margin-left: 10px;
+}
+
+body .ant-tooltip-inner {
+  background-color: #FAFBFC;
+  box-shadow: 0px 5px 35px 6px rgba(34, 60, 80, 0.2);
+  color:  rgba(34, 60, 80, 0.8);
+  border-radius: 10px;
+}
+
+body .ant-tooltip-arrow-content {
+  background-color: #FAFBFC;
+}
+
+.ant-empty {
+  height: 60px;
+  margin: 0 !important; 
+}
+
+.ant-empty > * {
+  font-size: 10px;
+}
+
+
+.dRpvxD {
+  display: block; 
+  flex-direction: column;
+  gap: 0em;
+}

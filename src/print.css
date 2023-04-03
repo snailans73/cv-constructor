@@ -1,0 +1,36 @@
+@media print {
+    body .ant-layout-sider,
+    body button {
+      display: none;
+    }
+  
+    body .ant-layout-content {
+      padding: 0;
+      width: min-content !important;
+    }
+  
+    body .ant-layout-content > div:not(#print-area) {
+      display: none;
+    }
+  
+    body .ant-layout {
+      width: min-content;
+    }
+    
+    .ant-tooltip {
+      display: none !important;
+    }
+  
+    #print-area {
+      position: fixed !important;
+      left: 0;
+      top: 0;
+      box-shadow: none;
+      page-break-after: always;
+    }
+  
+    @page {
+      size: A4; 
+      margin: 0;
+    }
+  }
