@@ -4,21 +4,21 @@ import { Summary } from "./userData";
 export const fakeData: Summary = {
   image,
   global: {
-    name: "Айдай",
-    surname: "Аскарова",
+    name: "Бакыт",
+    surname: "Аскаров",
     country: "Кыргызстан",
     position: "Junior FrontEnd Developer",
     relocation: true,
   },
   contacts: [
     { name: "Номер", value: "996550550555" },
-    { name: "Telegram", value: "@aiday_dev" },
-    { name: "LinkedIn", value: "@aiday_dev" },
-    { name: "GitHub", value: "aiday_dev" },
+    { name: "Telegram", value: "@bakyt_dev" },
+    { name: "LinkedIn", value: "@bakyt_dev" },
+    { name: "GitHub", value: "bakyt_dev" },
   ],
   language: [
-    { name: "Кыргыз тили", level: "Upper Intermediate" },
-    { name: "Англис тили", level: "Proficiency" },
+    { name: "Кыргыз тили", level: "Proficiency" },
+    { name: "Англис тили", level: "Upper Intermediate" },
   ],
   skills: [
     "React",

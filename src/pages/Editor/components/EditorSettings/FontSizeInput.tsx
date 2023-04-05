@@ -9,13 +9,14 @@ const FontSizeInput = observer(() => {
       addonBefore='Арип өлчөмү' 
       value={editorSettings.customFontSize} 
       placeholder='Стандарт' 
-      stringMode
+      stringMode ={true}
       controls={false} 
-      onChange={_value => 
-        editorSettings.setCustomFontSize()
+      onChange={value => 
+        editorSettings.setCustomFontSize(value?.toString())
       }
     />
   )
 })
+
 
 export default FontSizeInput

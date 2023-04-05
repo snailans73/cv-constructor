@@ -3,13 +3,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
+
 const ChooseAnotherTemplateButton: React.FC = () => {
   return (
-    <StyledLink to="../../../../templates">
+    <StyledLink to="/templates">
       <SwapOutlined />
       Үлгү галереясы
     </StyledLink>
+
   )
+
+  
 }
 
 const StyledLink = styled(Link)`
@@ -27,5 +31,7 @@ const StyledLink = styled(Link)`
   box-shadow: 0px 3px 10px 0px rgba(34, 60, 80, 0.1);
   z-index: 2;
 `
+
+
 
 export default ChooseAnotherTemplateButton

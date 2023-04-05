@@ -39,4 +39,5 @@ export const StyledTag = styled(Tag)`
     background-color: rgb(255, 77, 79, 0.1);
     box-shadow: 0px 3px 10px 0px rgb(255, 77, 79, 0.1);
   }
+  
 `

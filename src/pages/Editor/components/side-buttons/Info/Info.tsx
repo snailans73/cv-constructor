@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { observer } from 'mobx-react-lite'
-
 import { InfoCircleOutlined } from '@ant-design/icons'
 import { Tabs, Tooltip } from 'antd'
 import FloatingTriggerButton from '../../../../../lib/FloatingTriggerButton'

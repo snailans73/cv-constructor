@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import Drawer from '../../components/Drawer/Drawer'
 import { fakeData } from '../../store/fakeData'
 import { Link } from 'react-router-dom'
-import {} from '../../../src/templates/calssic-reversed'
-import{} from '../../../src/templates/classic'
+
+
 
 const TemplateLibrary = () => {
   const templates = ['classic', 'classic-reversed']

@@ -35,7 +35,7 @@ const Classic: React.FC<TemplateProps> = ({ data, reversed = false }) => {
       {
         !!data.language.length && 
         <Block $gap={0.25}>
-          <Title>🌎️ Languages</Title>
+          <Title>🌎️ Билген тилдер</Title>
           {data.language.map(({ name, level }, index) => (
             <Block key={`drawer-language-${name}-${index}`}>
               <LanguageName>{name}</LanguageName>
@@ -63,7 +63,7 @@ const Classic: React.FC<TemplateProps> = ({ data, reversed = false }) => {
         {
           !!data.education.length &&
           <Block $gap={1}>
-            <Title>🎓 Education</Title>
+            <Title>🎓 Билими</Title>
             {data.education.map((education, index) => (
               <Block key={`drawer-education-${education.name}-${index}`}>
                 <PointTitle>{education.name}</PointTitle>
@@ -79,7 +79,7 @@ const Classic: React.FC<TemplateProps> = ({ data, reversed = false }) => {
         {
           !!data.experience.length &&
           <Block $gap={1}>
-            <Title>✍️ Experience</Title>
+            <Title>✍️ Иш тажрыйбасы</Title>
             {data.experience.map((experience, index) => (
               <Block key={`drawer-experience-${experience.companyName}-${index}`}>
                 <PointTitle>
