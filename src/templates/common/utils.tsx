@@ -51,7 +51,7 @@ export function formatPhone(phone: string) {
       result = phone
     }
     if (addPlus) result = '+' + result
-    if (addEight) result = '+7 (' + result
+    // if (addEight) result = '' + result
   }
   
   return result
